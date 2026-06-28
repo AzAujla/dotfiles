@@ -1,0 +1,117 @@
+{
+  "logo": {
+    "source": "~/Pictures/images5.png",
+    "type": "kitty",
+    "position": "left",
+    "width": 35,
+  },
+  "display": {
+    "separator": " 󰑃  ",
+  },
+  "modules": [
+    "break",
+    {
+      "type": "os",
+      "key": " ",
+      "keyColor": "red",
+      "format": "Cachy OS",
+    },
+    {
+      "type": "kernel",
+      "key": "│ ├",
+      "keyColor": "red",
+    },
+    {
+      "type": "packages",
+      "key": "│ ├󰏖",
+      "keyColor": "red",
+    },
+    {
+      "type": "shell",
+      "key": "│ └",
+      "keyColor": "red",
+    },
+    {
+      "type": "wm",
+      "key": " DE/WM",
+      "keyColor": "white",
+    },
+    {
+      "type": "wmtheme",
+      "key": "│ ├󰉼",
+      "keyColor": "white",
+    },
+    {
+      "type": "icons",
+      "key": "│ ├󰀻",
+      "keyColor": "white",
+    },
+    {
+      "type": "cursor",
+      "key": "│ ├",
+      "keyColor": "white",
+    },
+    {
+      "type": "terminalfont",
+      "key": "│ ├",
+      "keyColor": "white",
+    },
+    {
+      "type": "terminal",
+      "key": "│ └",
+      "keyColor": "white",
+    },
+    {
+      "type": "host",
+      "key": "󰌢 SYSTEM",
+      "keyColor": "red",
+    },
+    {
+      "type": "cpu",
+      "key": "│ ├󰻠",
+      "keyColor": "red",
+    },
+    {
+      "type": "gpu",
+      "key": "│ ├󰻑",
+      "format": "{2}",
+      "keyColor": "red",
+    },
+    {
+      "type": "display",
+      "key": "│ ├󰍹",
+      "keyColor": "red",
+      "compactType": "original-with-refresh-rate",
+    },
+    {
+      "type": "memory",
+      "key": "│ ├󰾆",
+      "keyColor": "red",
+    },
+    {
+      "type": "swap",
+      "key": "│ ├󰓡",
+      "keyColor": "red",
+    },
+    {
+      "type": "disk",
+      "key": "│ ├",
+      "keyColor": "red",
+    },
+    {
+      "type": "uptime",
+      "key": "│ ├󰅐",
+      "keyColor": "red",
+    },
+    {
+      "type": "display",
+      "key": "│ └󰍹",
+      "keyColor": "red",
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[90m  \u001b[31m  \u001b[32m  \u001b[33m  \u001b[34m  \u001b[35m  \u001b[36m  \u001b[37m  \u001b[38m  \u001b[39m  \u001b[39m    \u001b[38m  \u001b[37m  \u001b[36m  \u001b[35m  \u001b[34m  \u001b[33m  \u001b[32m  \u001b[31m  \u001b[90m ",
+    },
+    "break",
+  ],
+}

@@ -1,0 +1,163 @@
+* {
+  border: none;
+  border-radius: 0;
+  font-family: "JetBrainsMono Nerd Font";
+  font-size: 13px;
+}
+
+window#waybar {
+  background: rgba(26, 27, 38, 0);
+  color: #cdd6f4;
+  /* border-bottom: 2px solid rgba(137, 180, 250, 0.3); */
+}
+
+#workspaces button {
+  /* padding: 0 8px; */
+  padding: 0 8px;
+  color: #6c7086;
+  transition: all 0.5s;
+  border-radius: 8px;
+  margin: 0 2px;
+}
+
+#workspaces {
+  border-radius: 8px;
+  background: rgba(26, 27, 38, 0.8);
+  margin: 4px 2px;
+  padding: 0 10px;
+}
+
+#workspaces button.active {
+  background-color: #cba6f7;
+  color: #fff;
+}
+
+#tray {
+  color: #89b4fa;
+  font-weight: bold;
+}
+
+#righttray {
+  border-radius: 8px;
+  background: rgba(26, 27, 38, 0.8);
+  margin: 4px;
+  padding: 0 10px;
+}
+
+#custom-notification {
+  color: #89b4fa;
+  font-weight: bold;
+}
+
+#clock {
+  color: #89b4fa;
+  font-weight: bold;
+  padding: 0 10px 0 0;
+}
+
+#cpu {
+  color: #a6e3a1;
+}
+
+#memory {
+  color: #fab387;
+}
+
+#network {
+  color: #89dceb;
+}
+
+#pulseaudio {
+  color: #f38ba8;
+}
+
+#battery {
+  color: #a6e3a1;
+}
+
+#backlight {
+  color: #a1a1ff;
+}
+
+#media {
+  padding: 0 10px;
+  margin: 4px 2px;
+  border-radius: 8px;
+  background: rgba(26, 27, 38, 0.8);
+}
+
+#custom-medianame {
+  margin: 0 8px;
+  color: #eeaaaa;
+}
+#custom-cava_mviz {
+  color: #ff88aa;
+  margin: 0 8px;
+}
+
+#cpu,
+#memory,
+#network,
+#backlight,
+#pulseaudio,
+#battery {
+  padding: 0 10px;
+  margin: 4px 2px;
+  border-radius: 8px;
+  background: rgba(26, 27, 38, 0.8);
+}
+
+#custom-power {
+  color: #f38ba8;
+  font-size: 16px;
+  padding: 0 12px;
+  margin: 4px 2px;
+  border-radius: 8px;
+  background: rgba(26, 27, 38, 0.8);
+}
+
+#custom-power:hover {
+  background: rgba(26, 27, 38, 0.8);
+}
+
+#privacy {
+  padding: 0 8px 0 0;
+}
+
+#privacy-item {
+  padding: 0 10px;
+  border-radius: 8px;
+  background: rgba(26, 27, 38, 0.8);
+  margin: 4px 0px;
+}
+
+#privacy-item.screenshare {
+  color: #f38ba8;
+  background: rgba(26, 27, 38, 0.8);
+}
+
+#privacy-item.audio-in {
+  color: #a6e3a1;
+  background: rgba(26, 27, 38, 0.8);
+}
+
+#privacy-item.audio-out {
+  color: #89b4fa;
+  background: rgba(26, 27, 38, 0.8);
+}
+
+#custom-webcam {
+  color: #f38ba8;
+  background: rgba(26, 27, 38, 0.8);
+  padding: 0 8px;
+  margin: 4px 2px;
+  border-radius: 8px;
+}
+
+#custom-mic {
+  color: #a6e3a1;
+  background: rgba(26, 27, 38, 0.8);
+  padding: 0 8px;
+  margin: 4px 2px;
+  border-radius: 8px;
+}

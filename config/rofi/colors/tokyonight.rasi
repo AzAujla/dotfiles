@@ -1,0 +1,20 @@
+/**
+ *
+ * Author : Levi Lacoss (fishyfishfish55)
+ * Github : @fishyfishfish55
+ *
+ * Colors
+ **/
+
+* {
+    background:     #15161EFF;
+    background-alt: #1A1B26FF;
+    foreground:     #593034FF;
+    selected:       #72020BFF;
+    active:         #C22D39FF;
+    urgent:         #8F83F7FF;
+}
+
+/**
+* https://color.adobe.com/create/color-wheel?color-palette=15161E%2C1A1B26%2C593034%2C72020B%2CC22D39%2C8F83F7&color-palette-name=My+Color+Theme
+*/
